@@ -1,0 +1,8 @@
+.env
+.claude
+output*.csv
+service-account.json
+__pycache__/
+.DS_Store
+token_count
+data**/

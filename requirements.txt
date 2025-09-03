@@ -1,0 +1,3 @@
+google-genai==1.23.0
+requests==2.32.2
+pypdf==3.17.4
