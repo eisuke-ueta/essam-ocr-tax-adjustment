@@ -15,8 +15,6 @@ COPY prompt_earthquake_insurance.txt ${LAMBDA_TASK_ROOT}
 COPY prompt_life_insurance.txt ${LAMBDA_TASK_ROOT}
 COPY prompt_small_mutual_aid.txt ${LAMBDA_TASK_ROOT}
 COPY prompt_social_insurance.txt ${LAMBDA_TASK_ROOT}
-COPY prompt_medical_expense.txt ${LAMBDA_TASK_ROOT}
-COPY prompt_donation_decuction.txt ${LAMBDA_TASK_ROOT}
 
 # Set the CMD to your handler
 CMD ["lambda_function.lambda_handler"]
