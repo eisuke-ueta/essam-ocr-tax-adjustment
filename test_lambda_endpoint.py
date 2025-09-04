@@ -72,6 +72,6 @@ def test_lambda_endpoint(endpoint_url: str, file_path: str):
 if __name__ == "__main__":
     file_path = sys.argv[1]
     test_lambda_endpoint(
-        "https://n7eew2i6pbdue4a3qnuvi74w7e0hdglf.lambda-url.ap-northeast-1.on.aws/",
+        "https://aaw3hzxo522jzmiidkmvpoulmm0gtdeo.lambda-url.ap-northeast-1.on.aws/",
         file_path,
     )
